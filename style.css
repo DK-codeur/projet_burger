@@ -1,0 +1,155 @@
+/*generale*/
+*
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* body */
+body
+    {
+        background: url("images/bg.jpg");
+    }
+
+    /*site*/
+.site
+    {
+        font-family: Georgia, 'Times New Roman', Times, sans-serif;
+        width: 900px !important;
+    }
+
+    /*text-logo*/
+.text-logo
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #e7480F;
+        text-shadow: 2px 2px #ffd301;
+        font-size: 50px;
+        padding: 25px 0px;
+        text-align: center;
+    }
+
+.text-logo .fa
+    {
+        color: #ff0101;
+    }
+
+    /*nav*/
+.nav-pills .nav-link
+    {
+        margin-right: 5px;
+    }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link, .nav-pills .nav-link:hover
+    {   
+        background-color: #e7480F !important;
+        color: #FFF;
+    }
+
+.nav > li > a
+    {
+        color: rgb(133, 34, 4);
+        font-size: 18px;
+        font-weight: bold;
+        /* text-shadow: 2px 2px #333; */
+
+    }
+
+    /*data image*/
+.img-thumbnail img
+    {
+        background-color: #ffa601;
+        width: 100%;
+    }
+
+.price
+    {
+        background: #5cb85c;
+        box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+        color: #FFF;
+        text-shadow: 2px 2px #333;
+        position: absolute;
+        top: 20px;
+        right: 6px;
+        padding: 2px 6px;
+        font-size: 20px;
+        border-radius: 3px;
+    }
+
+.price::before
+    {
+        content: "";
+        position: absolute;
+        border: 4px transparent solid;
+        border-bottom: 4px solid #4a934a;
+        border-left: 4px solid #4a934a;
+        right: 1px;
+        top: -8px;
+    }
+
+.caption > h4
+    {
+        color: #e7480f;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+.commander
+    {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /*@media*/
+@media screen and (max-width: 576px)
+   {
+        .site
+            {
+                
+                max-width: 540px;
+            }
+        
+   }
+
+    /********************************/
+    /*               Admin          */
+    /********************************/
+
+.admin-main
+    {
+        background-color: #fff;
+        padding: 50px !important;
+        border-radius: 10px;
+    }
+
+.ajouter
+    {
+        margin: 10px;
+    }
+
+    /*View*/
+.admin-view
+    {
+        background-color: #fff;
+        padding: 50px !important;
+        border-radius: 10px;
+        width: 800px !important;
+    }
+
+@media screen and (max-width: 576px)
+   {
+        .admin-view
+            { 
+                max-width: 540px;
+            }
+        
+   }
+
+   /*insert*/
+.help-inline
+   {
+       color: red;
+   }
+
+/*update*/
